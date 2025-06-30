@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  background-color: teal;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverce; */
+  /* flex-direction: column-reverce*/
+
+
+
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+}
+
+.flex-container > .flex-item {
+  background-color: blue;
+  padding: 50px 50px;
+}
